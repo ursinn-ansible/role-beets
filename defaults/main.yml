@@ -1,6 +1,8 @@
 ---
-app_beets_enabled: false
-app_beets_puid: '16704'
-app_beets_pgid: '16704'
-app_beets_tz: "Europe/Zurich"
-app_beets_dir: "/opt/app-beets"
+role_beets_image: 'lscr.io/linuxserver/beets'
+role_beets_container: 'beets'
+role_beets_puid: '1000'
+role_beets_pgid: '1000'
+role_beets_tz: 'Europe/Zurich'
+role_beets_dir: '/opt/app-beets'
+role_beets_network: 'app-network'
